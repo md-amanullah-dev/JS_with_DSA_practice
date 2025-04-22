@@ -6,3 +6,17 @@ let j = arr.length -1;
 for (let i =arr.length -1; i>=0;i--){
     arr2.push(arr[i]) 
 }
+
+// 2. find mamimum an array
+let i;
+let max = arr[0]
+for (let i=0;i<arr.length;i++){
+
+    if(arr[i]>max){
+        max = arr[i];
+    }
+}
+console.log("maximum number",max)
+
+
+
